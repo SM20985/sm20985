@@ -1,18 +1,18 @@
-# sm20985
+# SM2
 learn videos
 https://www.youtube.com/@SSM20985
 
 apk download market
 
 
-# sm20985
+# SM2
 
-sm20985
+SM2
 Please manually enable 'All File Access' in settings if the app does not run for Android 13 and above.
 
-sm20985 is an adaptable app for creating and managing custom UIs. Features include web views, PDF handling, image viewing, HTML editing, and serial data transmission via Bluetooth. Customizable buttons and startup options enhance user experience.
+SM2 is an adaptable app for creating and managing custom UIs. Features include web views, PDF handling, image viewing, HTML editing, and serial data transmission via Bluetooth. Customizable buttons and startup options enhance user experience.
 
-sm20985 offers object-oriented programmable buttons (40 in total) and 10 sliders with serial Bluetooth transmission capabilities. Create and summon custom menus, build and manage PDF libraries, edit HTML files, and turn them into libraries for further use. sm20985 can send and receive server APIs as well.
+SM2 offers object-oriented programmable buttons (40 in total) and 10 sliders with serial Bluetooth transmission capabilities. Create and summon custom menus, build and manage PDF libraries, edit HTML files, and turn them into libraries for further use. SM2 can send and receive server APIs as well.
 
 Receipts can be displayed in two formats:
 
@@ -22,21 +22,21 @@ Addressed values, where each address can have a defined maximum value.
 
 This feature allows the creation of various effects on the buttons, including rotation, resizing, moving, color changes, and graphics. For example, you can create a rotating analog needle with input values from 0 to 1000, a graphical thermometer with size change effects, or a balancer with moving effects. You can even create a battery icon that changes color with voltage drop. Remember, to achieve noticeable changes, you should consider minimum input values; for instance, values from 0 to 5 won't show significant effects, but higher values like 0 to 500 or 1000 will. For a complete rotation, at least values from 0 to 360 should be applied, or for proper color changes, remember that color values range up to 255.
 
-sm20985 also supports copy-paste for repetitive tasks. Just create a detailed button and paste its properties to other buttons.
+SM2 also supports copy-paste for repetitive tasks. Just create a detailed button and paste its properties to other buttons.
 
-Additionally, sm20985 allows for navigation between created pages. You can create numerous menus and pages, adding sound and vibration to buttons for a pleasant feel. You can share your designs by sharing the text files of the pages. If documents, images, and PDFs are included, it's better to share the related folders as well.
+Additionally, SM2 allows for navigation between created pages. You can create numerous menus and pages, adding sound and vibration to buttons for a pleasant feel. You can share your designs by sharing the text files of the pages. If documents, images, and PDFs are included, it's better to share the related folders as well.
 
-Notes in sm20985 do more than just note-taking. They also serve various tasks such as saving notes, recalling notes, converting to HTML in HTML file editing, and sending commands in serial output in two ways: line by line or with a command line followed by a timer. This enables you to create programmable processes. You can write scenarios as notes and send them to the microcontroller in Note Out to execute your desired operations.
+Notes in SM2 do more than just note-taking. They also serve various tasks such as saving notes, recalling notes, converting to HTML in HTML file editing, and sending commands in serial output in two ways: line by line or with a command line followed by a timer. This enables you to create programmable processes. You can write scenarios as notes and send them to the microcontroller in Note Out to execute your desired operations.
 
 ESP8266 Project
 
-The ESP8266 WiFi module creates a two-way connection between sm20985 and the microcontroller with a local server. If needed, you can extract the package and server files from the server folder and upload them to your online server for a remote online control experience. The source files of the ESP8266 server project are available and unrestricted for you to enhance and improve.
+The ESP8266 WiFi module creates a two-way connection between SM2 and the microcontroller with a local server. If needed, you can extract the package and server files from the server folder and upload them to your online server for a remote online control experience. The source files of the ESP8266 server project are available and unrestricted for you to enhance and improve.
 
 Rangmang Project
 
-Rangmang is a project designed to control RGB LED strips via Bluetooth serial commands using sm20985. This project allows users to program and control WS2812B LED strips to create stunning lighting effects. sm20985 acts as the interface to send commands to the microcontrollers, enabling dynamic color changes and patterns. The source files of the Rangmang project are available and unrestricted for you to enhance and improve.
+Rangmang is a project designed to control RGB LED strips via Bluetooth serial commands using SM2. This project allows users to program and control WS2812B LED strips to create stunning lighting effects. SM2 acts as the interface to send commands to the microcontrollers, enabling dynamic color changes and patterns. The source files of the Rangmang project are available and unrestricted for you to enhance and improve.
 
-To download sm20985, you can visit the following resources:
+To download SM2, you can visit the following resources:
 
 GitHub
 
@@ -44,8 +44,8 @@ YouTube (which includes Google Drive download links)
 
 APKPure market for quick access to updates
 
-Example of Sending Commands or Custom Messages to the Serial Terminal in sm20985
-Open sm20985: Click on the play icon in the top right corner. From the play page, switch to the stop or edit page; the icon will display as a stop symbol. Locate the design icon (a 6-grid icon) in the top right and click on it. Choose the third option to summon a button.
+Example of Sending Commands or Custom Messages to the Serial Terminal in SM2
+Open SM2: Click on the play icon in the top right corner. From the play page, switch to the stop or edit page; the icon will display as a stop symbol. Locate the design icon (a 6-grid icon) in the top right and click on it. Choose the third option to summon a button.
 
 Summon a Button: Click on the button, and now the button design icon will appear. Click on the design icon and choose the sixth option, "Behavior." A light blue label will appear on the page; click on it. Then, select the sixth option, "Note." Choose the initial note "hello" and confirm, so a note appears.
 
@@ -127,7 +127,7 @@ Auto or Manual Sending: In manual mode, an icon will appear for line-by-line sen
 
 Check-In: To verify received confirmation. For example, send "123" and if "123" is received, it proceeds to the next line. Otherwise, it repeats a few times and stops if "123" is not received. This is similar to serial echo, ensuring correct receipt.
 
-Next Reception: Sensitive to the word "next" in the reception. Useful when the microcontroller's operation time is unknown. For example, a motor moving a load may take different times to reach the destination based on the load. If a micro switch at the destination sends "next" to the Bluetooth module upon completion, sm20985 will send the next line. Each "next" waits for up to 600 seconds; if exceeded, the program stops.
+Next Reception: Sensitive to the word "next" in the reception. Useful when the microcontroller's operation time is unknown. For example, a motor moving a load may take different times to reach the destination based on the load. If a micro switch at the destination sends "next" to the Bluetooth module upon completion, SM2 will send the next line. Each "next" waits for up to 600 seconds; if exceeded, the program stops.
 
 Custom Wait: Previously mentioned for setting custom stops between lines.
 
@@ -294,12 +294,12 @@ All these steps are explained on YouTube.
 
 https://youtu.be/PV-M5d7y2hA
 
-Paste the main file into the page folder of the Android software to display the sm20985 program
+Paste the main file into the page folder of the Android software to display the SM2 program
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 ## Keywords
-- sm20985
+- SM2
 - swift-design
 - custom-html
 - android-app
@@ -327,6 +327,6 @@ Paste the main file into the page folder of the Android software to display the 
 -Customize buttons to send specific commands
 -Dynamic Lighting Effects
 -Create and save custom lighting patterns
--Integration with sm20985
--Seamlessly integrates with sm20985 for enhanced functionality
+-Integration with SM2
+-Seamlessly integrates with SM2 for enhanced functionality
 
